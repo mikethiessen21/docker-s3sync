@@ -1,5 +1,5 @@
 FROM debian:latest
-LABEL Chris Nagy <docker@heyitschris.com>
+LABEL Mike
 
 ENV DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="C.UTF-8" LANG="en_US.UTF-8" LANGUAGE="en_US.UTF-8"
 
