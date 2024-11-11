@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND="noninteractive" HOME="/root" LC_ALL="C.UTF-8" LANG="en_US.U
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-      cron python3 python3-magic python3-pip && \
+      cron python3 python3-magic python3-pip groff less && \
     rm -rf /var/lib/apt/lists/*
 
 RUN pip3 install setuptools wheel 
